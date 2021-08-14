@@ -1,0 +1,20 @@
+.idea/
+.vscode/
+.project
+.settings
+.DS_STORE
+
+# this
+rlog
+
+cp.out
+vendor/
+
+tmp/*
+!tmp/.keep
+*.exe
+*.exe~
+*.log
+
+debug
+__debug_bin
