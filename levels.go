@@ -14,6 +14,14 @@ var LogLevel = loggerLevels{
 	Error: "error",
 }
 
+// Even more convenient
+const (
+	Error = "error"
+	Warn  = "warn"
+	Info  = "info"
+	Debug = "debug"
+)
+
 // Internal only - keep private
 var logrusLevels = map[string]logrus.Level{
 	"debug": logrus.DebugLevel,
